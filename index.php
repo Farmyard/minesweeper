@@ -37,7 +37,7 @@
 		var y=$(this).attr("y-data");
 		if(i==0){
 			$.ajax({
-				url:"ajax.php",
+				url:"mine.php",
 				type:'post',
 				data:'x='+x+'&y='+y,
 				success:function(data){
